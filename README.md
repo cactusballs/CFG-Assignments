@@ -19,8 +19,9 @@ I'm super excited to get started <sup>and really hope this summer is a rainy one
 Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from one of our lead instructors
 
 
+> “Run the Bloody Code!" _Kenny, circa 2024_
 
-
+<sub>[click for a surprise!](https://cactusballs.github.io/Yeehonk/)</sub>
 
 
 ## Assignment 1: Git & GitHub :boom:
