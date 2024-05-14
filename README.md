@@ -29,9 +29,19 @@ Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from
 ### Assigment 1 checklist 
 
 - [ ] add a checklist
+- [ ] Create a README
+- [ ] use at least 6 different markdown styles
+- [ ] Create .gitignore and explain what it's for
+- [ ] create requirements.txt and explain what its for 
 - [ ] Display screenshots in a JS Gallery 
 - [ ] add a photo to my ReadMe
-- [ ] work on my repository
+- [ ] work on a file and demonstrate the following (use screenshots)
+      - Checking the status
+      - Creating a branch
+      - adding files to a branch
+      - adding commits with meaningful messages
+      - opening a pull request
+      - merging and deploying to main branch 
 - [ ] get full marks! :zany_face:
 
 ### Overview & What I learned
