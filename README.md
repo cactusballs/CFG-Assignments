@@ -22,6 +22,8 @@ Thanks for visiting, feedback is always appreciated and here's a **Top Tip** fro
 
 ## Assignment 1: Git & GitHub :boom:
 
+Assignment 1 evidence and screenshots [here](https://cactusballs.github.io/CFGPublic/)
+
 ### Assignment 1 checklist 
 - [x] add a checklist
 - [x] Create a README
@@ -30,4 +32,6 @@ Thanks for visiting, feedback is always appreciated and here's a **Top Tip** fro
 - [x] Explain what a requirements.txt  
 - [x] work on a file and demonstrate knowledge of Git & Github.
 - [ ] get full marks! :zany_face:
+
+
 
