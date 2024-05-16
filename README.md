@@ -14,7 +14,7 @@ Here I'll be showcasing all I've learned on the *FullStack* course from _Code Fi
 
 I'm super excited to get started <sup>and really hope this summer is a rainy one</sup>
 
-Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from one of our lead instructors
+Thanks for visiting, feedback is always appreciated and here's a **Top Tip** from one of our lead instructors
 
 > “Run the Bloody Code!" _Kenny, circa 2024_
 
@@ -28,6 +28,7 @@ Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from
 - [x] use at least 6 different markdown styles
 - [ ] Create .gitignore and explain what it's for
 - [ ] create requirements.txt and explain what its for 
+
 - [ ] Display screenshots in a JS Gallery 
 - [ ] add a photo to my ReadMe
 - [x] work on a file and demonstrate the following (use screenshots)
@@ -39,4 +40,3 @@ Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from
       - merging and deploying to main branch 
 - [ ] get full marks! :zany_face:
 
-### Overview & What I learned
