@@ -1,0 +1,59 @@
+/* setting styles for whole page */
+html {
+  font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif; /* only fonts allowed */
+  font-size: 18px;
+  color: #254252;
+  margin: 0;
+  text-align: justify;
+  overflow-x: hidden;
+} 
+
+h1{
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+/* readMe div code below  */
+.readMe{
+  border-top: solid 1px #043927;
+  margin-bottom: 5%;
+}
+
+.readMe img {
+  height: 40vh;
+  width: auto;
+}
+
+/* gitIndex styles below */
+
+.gitIndex{
+  border-top: solid 1px #043927;
+  margin-bottom: 5%;
+}
+
+#imgOne{
+  height: 60vh;
+  width: auto;
+}
+
+.gitIndex img{
+  height: 30vh;
+  width: auto;
+}
+
+/* gitIgnore styles below */
+
+.gitIgnore{
+  border-top: solid 1px #043927;
+  margin-bottom: 5%;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.8em;
+}
+
+a{
+  color: #FF6E00;
+  text-decoration: none;
+}
