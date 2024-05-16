@@ -22,21 +22,12 @@ Thanks for visiting, feedback is always appreciated and here's a **Top Tip** fro
 
 ## Assignment 1: Git & GitHub :boom:
 
-### Assigment 1 checklist 
+### Assignment 1 checklist 
 - [x] add a checklist
 - [x] Create a README
 - [x] use at least 6 different markdown styles
-- [ ] Create .gitignore and explain what it's for
-- [ ] create requirements.txt and explain what its for 
-
-- [ ] Display screenshots in a JS Gallery 
-- [ ] add a photo to my ReadMe
-- [x] work on a file and demonstrate the following (use screenshots)
-      - Checking the status
-      - Creating a branch
-      - adding files to a branch
-      - adding commits with meaningful messages
-      - opening a pull request
-      - merging and deploying to main branch 
+- [x] Create .gitignore and explain what it's for
+- [x] Explain what a requirements.txt  
+- [x] work on a file and demonstrate knowledge of Git & Github.
 - [ ] get full marks! :zany_face:
 
