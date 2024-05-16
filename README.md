@@ -16,7 +16,7 @@ Here I'll be showcasing all I've learned on the *FullStack* course from _Code Fi
 
 I'm super excited to get started <sup>and really hope this summer is a rainy one</sup>
 
-Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from one of our lead instructors
+Thanks for visiting, feedback is always appreciated and here's a **Top Tip** from one of our lead instructors
 
 
 > “Run the Bloody Code!" _Kenny, circa 2024_
@@ -26,7 +26,7 @@ Thanks for visiting, feedback is always apprecated and here's a **Top Tip** from
 
 ## Assignment 1: Git & GitHub :boom:
 
-### Assigment 1 checklist 
+### Assignment 1 checklist 
 
 - [ ] add a checklist
 - [ ] Display screenshots in a JS Gallery 
