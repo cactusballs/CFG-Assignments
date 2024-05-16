@@ -22,7 +22,7 @@ Thanks for visiting, feedback is always appreciated and here's a **Top Tip** fro
 
 ## Assignment 1: Git & GitHub :boom:
 
-Assignment 1 evidence and screenshots [here](https://cactusballs.github.io/CFGPublic/)
+_Assignment 1 evidence and screenshots in the code files. I made a static site to display them but couldn't use pages to make it live due to being a private repository._ 
 
 ### Assignment 1 checklist 
 - [x] add a checklist
