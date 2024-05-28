@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>CFG Assignment Two</title>
+  </head>
+  <header> <!-- Using semantic HTML for screen readers and accessibility-->
+    <h1>Blind Dates with Louis Theroux!</h1>
+    <h3>choose from the options below and Louis will find you your perfect date!*</h3>
+    <p>*nonrefundable, non-negotiable, all decisions are final. </p>
+  </header>
+  <main>
+  
+    <div class="wrapper">
+     <form id="date">
+      <div>
+      <h3>Choose your perfect location!</h3> 
+      <div class="option">
+      <input  type="radio" id="toby"  value="1" name="locations">
+      <label for="toby">The Local Toby Carvery </label>
+      <input  type="radio" id="spoons"  value="1" name="locations">
+      <label for="spoons">Wetherspoons on a Monday afternoon!</label>
+      <input type="radio" id="tube"  value="8" name="locations">
+      <label for="tube"> The Central Line</label>
+      <input  type="radio" id="bin" name="locations" value="4">
+      <label for ="bin">A Wheelie Bin Ice Bath</label>
+      </div>
+
+        <div>
+        <h3>Choose what you're eating!</h3> 
+        <div class="option">
+        <input type="radio" id="shake" name="foods" value="3">
+        <label for="shake">A Protein Shake</label>
+        <input type="radio" id="skittles" name="foods" value="14">
+        <label for="skittles">Four bags of skittles</label>
+        <input type="radio" id="cheerio" name="foods" value="2">
+        <label for="cheerio">One single cheerio eaten Lady & The Tramp Style</label>
+        <input type="radio" id="luncheable" name="foods" value="5">
+        <label for ="luncheable">A Luncheable</label>
+        </div>
+
+      
+
+        <div>
+          <h3>Choose a post dinner activity!</h3> 
+          <div class="option">
+          <input type="radio" id="roller" name="activity" value="3">
+          <label for="roller"> Roller Derby</label>
+          <input type="radio" id="rage" name="activity" value="1">
+          <label for="rage">A Rage Room</label>
+          <input type="radio" id="vine" name="activity" value="7">
+          <label for="vine"> Rewatching old vine compilations on YouTube</label>
+          <input type="radio" id="parkour" name="activity" value="-2">
+          <label for="parkour">Parkour</label>
+          </div>
+    </div>
+  </div>
+     <div id="wildCard">
+     <h3>Click the button if you want to add a fun Wild Card extra to your date!!*</h3>
+      <div id="container">
+      <div id="outPutDiv"></div>
+      <button  type="button" class="wildCardButton" onclick="generateAnswer()">Wild Card!</button>
+      </div>
+      </div>
+      <div id="formResult"></div>
+      <input type="submit" value="Show me my date!" ></input>
+      </form>
+      
+      
+  </main>
+  <footer>
+  </footer>
+</html>
