@@ -1,8 +1,75 @@
 html {
   font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif; /* only fonts allowed */
   font-size: 18px;
-  color: #254252;
+  color: white;
   margin: 0;
-  text-align: justify;
-  overflow-x: hidden;
+  text-align: center;
+  background-color: #FF008C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 } 
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+
+h3{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+header p{
+  margin-top: 0;
+  font-size: .6em;
+  margin-bottom: 10%;
+}
+
+
+.option{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+
+
+#container {
+  margin: 10% auto auto auto;
+  width: 60vw;
+  border: 10px solid rgb(255,142,0);
+  padding: 10px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#container h5{
+  color: rgba(2,54,83);
+
+}
+
+button{
+  font-family: 'Spartan', 'Futura', sans-serif; 
+  color:  rgba(2,54,83);
+  
+}
+
+#outPutDiv {
+  color:rgba(2,54,83, 0.8);
+}
+
+#formResult{
+  color:rgba(2,54,83, 0.8);
+  display: hidden;
+  margin-top: 10%;
+}
