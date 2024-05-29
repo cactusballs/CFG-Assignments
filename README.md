@@ -43,4 +43,20 @@ My JavaScript WebApp is stored within this Repo in the folder labeled assignment
 
 2.1) 
 
-- Unshift(): Is a JavaScript array method that 
+- Unshift(): Is a JavaScript array method that takes in an element and appends it to the beginning of the array, returning the full array including the new element.
+<img width="635" alt="unshift()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/60d5bd6e-9f52-4013-840f-2d63cde47bf9">
+
+- shift(): Is a JavaScript array method that removes the first element of an array (zero index) and returns that element changing the length of the array.
+<img width="659" alt="shift()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/0cb24b92-f8bb-47af-828a-462b4f57e26f">
+
+- split(): Is a JavaScript string method that takes in a pattern and divides the string into a list of substrings that match the pattern. 
+<img width="666" alt="split()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/932acc4a-2496-4f70-b00e-e460ec9248d9">
+
+2.2) 
+- Define object methods: Object methods are functions that are pre written into JavaScript code that can be used to perform operations on Objects.
+
+
+
+
+
+
