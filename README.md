@@ -34,4 +34,13 @@ _Assignment 1 evidence and screenshots in the code files. I made a static site t
 - [ ] get full marks! :zany_face:
 
 
+## Assignment 2: Javascript 👾
 
+### Question 1
+My JavaScript WebApp is stored within this Repo in the folder labeled assignmentTwo. 
+
+### Question 2 
+
+2.1) 
+
+- Unshift(): Is a JavaScript array method that 
