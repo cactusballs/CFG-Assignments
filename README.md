@@ -64,15 +64,21 @@ My JavaScript WebApp is stored within this Repo in the folder labeled assignment
 The DOM converts HTML elements into JavaScript objects and vice verca. DOM Events are user triggered events (by mouse, keyboard, input etc) that will then trigger JavaScript to perform a function changing the HTML element the DOM event is assigned to. 
 
 - **onmouseover** is a DOM event that will change the HTML when a user hovers their mouse over a certain element. E.g:
+  
   HTML:```<div class='colorChange' onmouseover='colorChange(this)'>Change My Color!</div>```
+  
   JavaScript:```const colorChange = (element) => { element.style.color = 'red'; };```
 
 - **onclick** is a DOM event that triggers a change when a user clicks an element with their mouse. E.g:
+  
   HTML: ```<div class='colorChange' onclick='colorChange(this)'>Change Me!</div>```
+  
   JavaScript: ```const colorChange = (element) => {element.style.color = 'green'; };```
 
 - **onkeypress** is a DOM event that triggers a change when a user hits a key on their keyboard while the web page is focusing on that element, this is typically used for elements such as <input>, <button> or <a>. They won't work when certain keys are pressed such as ALT, CTRL, SHIFT, ESC. E.g:
+  
   HTML: ```  <input type="text" onkeypress="keyAlert()"> ```
+  
   JavaScript: ``` const keyAlert = (element) => {alert('Great job on pressing that key!')}; ```
 
 
