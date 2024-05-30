@@ -43,18 +43,19 @@ My JavaScript WebApp is stored within this Repo in the folder labeled assignment
 
 #### 2.1) Array & String Methods.
 
-- Unshift(): Is a JavaScript array method that takes in an element and appends it to the beginning of the array, returning the full array including the new element.
-<img width="635" alt="unshift()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/60d5bd6e-9f52-4013-840f-2d63cde47bf9">
+- **Unshift():** Is a JavaScript array method that takes in an element and appends it to the beginning of the array, returning the full array including the new element.
+<img width="694" alt="unshift" src="https://github.com/cactusballs/CFGDegree/assets/71734928/c88bb888-987e-4a53-bb23-12e4ea1e885c">
 
-- shift(): Is a JavaScript array method that removes the first element of an array (zero index) and returns that element changing the length of the array.
-<img width="659" alt="shift()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/0cb24b92-f8bb-47af-828a-462b4f57e26f">
+- **shift():** Is a JavaScript array method that removes the first element of an array (zero index) and returns that element changing the length of the array.
+<img width="621" alt="shift" src="https://github.com/cactusballs/CFGDegree/assets/71734928/a6475318-553f-4272-ae8c-a64219df4bec">
 
-- split(): Is a JavaScript string method that takes in a pattern and divides the string into a list of substrings that match the pattern. 
+
+- **split():** Is a JavaScript string method that takes in a pattern and divides the string into a list of substrings that match the pattern. 
 <img width="666" alt="split()" src="https://github.com/cactusballs/CFGDegree/assets/71734928/932acc4a-2496-4f70-b00e-e460ec9248d9">
 
 #### 2.2) Objects & Object Methods.
 
-- Define object methods: Object methods are functions that are pre written into JavaScript code that can be used to perform operations on Objects.
+- **Define object methods:** Object methods are functions that are pre written into JavaScript code that can be used to perform operations on Objects.
   In the screenshot below I have used the following three object methods: Objectkeys(), Object.is() and Object.values().
 
 <img width="807" alt="Screenshot 2024-05-30 at 13 32 06" src="https://github.com/cactusballs/CFGDegree/assets/71734928/cecc2898-b580-442d-aace-9225703cb489">
