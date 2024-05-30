@@ -55,10 +55,9 @@ My JavaScript WebApp is stored within this Repo in the folder labeled assignment
 
 #### 2.2) Objects & Object Methods.
 
-- **Define object methods:** Object methods are functions that are pre written into JavaScript code that can be used to perform operations on Objects.
-  In the screenshot below I have used the following three object methods: Objectkeys(), Object.is() and Object.values().
+- **Define object methods:** Object methods are functions defined within an Object that can then be used to perfomr actions/extrapolate information from that object. E.g:
+<img width="1085" alt="Screenshot 2024-05-30 at 22 43 37" src="https://github.com/cactusballs/CFGDegree/assets/71734928/df2c9f95-6b2a-4f97-a9cb-10d0cc8be254">
 
-<img width="807" alt="Screenshot 2024-05-30 at 13 32 06" src="https://github.com/cactusballs/CFGDegree/assets/71734928/cecc2898-b580-442d-aace-9225703cb489">
 
 #### 2.3) DOM Events. 
 
