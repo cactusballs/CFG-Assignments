@@ -1,9 +1,13 @@
- //Cookies alert, user input, boolean values
+ //Cookies alert (user input, boolean values, if else statement )
 const confirmCookies = window.confirm('We use cookies. Are you ok with that?')
-const cookiesAccept = confirmCookies === true ? window.close : window.location.href="https://www.google.com";
+  if (confirmCookies === true){
+    window.close
+  } else {
+    window.location.href="https://www.google.com"
+  };
 
 
-//function, data structure
+//function (data structure, changes the webpage)
 const wildCardButton = document.querySelector(".wildCardButton")
   function generateAnswer() 
   {
@@ -11,12 +15,12 @@ const wildCardButton = document.querySelector(".wildCardButton")
     ];
     card = cards[Math.floor(Math.random() * cards.length)];
     document.getElementById('outPutDiv').innerHTML = card;
-    wildCardButton.innerHTML = 'A different Wild Card please!'; //changes the HTML/CSS
+    wildCardButton.innerHTML = 'A different Wild Card please!'; 
     wildCardButton.style.color = 'red';
-  }
+  };
 
 
-
+ //form (user input, data structures, using an event)
  document.getElementById("date").addEventListener("submit", function(event) {
    event.preventDefault();
 
@@ -49,16 +53,16 @@ const wildCardButton = document.querySelector(".wildCardButton")
       likes: 'rusty spoons',
       dislikes: 'lack of sustenance'
     }
-  ]
+  ];
   
   let finalResult;
   //using a for loop 
   for(let i = 0; i <= dates.length; i++){
     if((result < 10 && i === 1) || (result >= 10 && i ===2) || (result >= 20 && i === 3)){
       finalResult = dates[i];
-    }
-  }
-  //triggers an event
+    }; 
+  };
+  //outputs the final result
   document.getElementById('formResult').innerHTML = `Your date is ${finalResult.name}! They're ${finalResult.height} They like ${finalResult.likes}, and they hate ${finalResult.dislikes}`;
-})
+});
   
