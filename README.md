@@ -37,7 +37,7 @@ _Assignment 1 evidence and screenshots in the code files. I made a static site t
 ## Assignment 2: Javascript 👾
 
 ### Question 1
-My JavaScript WebApp is stored within this Repo in the folder labeled assignmentTwo 📓
+My JavaScript WebApp is stored here - CFGDegree/assignmentTwo/ 📓
 
 ### Question 2 
 
