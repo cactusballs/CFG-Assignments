@@ -1,4 +1,4 @@
-//Cookies alert (user input, boolean values, if else statement )
+//Cookies alert (user input, boolean values, if else statement)
 const confirmCookies = window.confirm('We use cookies. Are you ok with that?')
   if (confirmCookies === true){
     window.close

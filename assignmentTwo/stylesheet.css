@@ -1,10 +1,10 @@
 html {
   font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif; 
   font-size: 18px;
-  color: white;
+  color: #FF008C;;
   margin: 0;
   text-align: center;
-  background-color: #FF008C;
+  background-color: #FFF4F2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +39,7 @@ header p{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-left: 3px;
   margin-bottom: 10%;
 }
 
@@ -46,7 +47,7 @@ header p{
 #container {
   margin: 10% auto auto auto;
   width: 60vw;
-  border: 10px solid rgb(255,142,0);
+  border: 10px solid #FF008C;
   padding: 10px;
   margin-top: 10%;
   margin-bottom: 5%;
