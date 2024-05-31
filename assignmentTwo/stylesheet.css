@@ -1,5 +1,5 @@
 html {
-  font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif; /* only fonts allowed */
+  font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif; 
   font-size: 18px;
   color: white;
   margin: 0;
@@ -8,14 +8,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 } 
 
 h1 {
   font-family: "Lobster", sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 4em;
   margin-bottom: 2%;
 }
 
@@ -55,21 +54,26 @@ header p{
 
 #container h5{
   color: rgba(2,54,83);
-
 }
 
 button{
   font-family: 'Spartan', 'Futura', sans-serif; 
   color:  rgba(2,54,83);
-  
 }
 
 #outPutDiv {
   color:rgba(2,54,83, 0.8);
+  font-family: 'Spartan', 'Futura', sans-serif; 
 }
 
 #formResult{
   color:rgba(2,54,83, 0.8);
-  display: hidden;
-  margin-top: 10%;
+  font-size: 1.2em;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+footer{
+  margin-top: 5%;
+  font-size: .6em;
 }
