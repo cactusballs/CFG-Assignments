@@ -1,4 +1,4 @@
- //Cookies alert (user input, boolean values, if else statement )
+//Cookies alert (user input, boolean values, if else statement )
 const confirmCookies = window.confirm('We use cookies. Are you ok with that?')
   if (confirmCookies === true){
     window.close
@@ -7,7 +7,7 @@ const confirmCookies = window.confirm('We use cookies. Are you ok with that?')
   };
 
 
-//function (data structure, changes the webpage)
+//Wild Card function (data structure, changes the webpage)
 const wildCardButton = document.querySelector(".wildCardButton")
   function generateAnswer() 
   {
@@ -20,7 +20,7 @@ const wildCardButton = document.querySelector(".wildCardButton")
   };
 
 
- //form (user input, data structures, using an event)
+ //form function (user input, data structures, using an event)
  document.getElementById("date").addEventListener("submit", function(event) {
    event.preventDefault();
 
@@ -56,13 +56,13 @@ const wildCardButton = document.querySelector(".wildCardButton")
   ];
   
   let finalResult;
-  //using a for loop 
+  //using a for loop to loop through the date array
   for(let i = 0; i <= dates.length; i++){
-    if((result < 10 && i === 1) || (result >= 10 && i ===2) || (result >= 20 && i === 3)){
+    if((result < 10 && i === 0) || (result >= 10 && i === 1) || (result >= 20 && i === 2)){
       finalResult = dates[i];
     }; 
   };
   //outputs the final result
-  document.getElementById('formResult').innerHTML = `Your date is ${finalResult.name}! They're ${finalResult.height} They like ${finalResult.likes}, and they hate ${finalResult.dislikes}`;
+  document.getElementById('formResult').innerHTML = `Your date is ${finalResult.name}! They're ${finalResult.height} tall. They like ${finalResult.likes}, and they hate ${finalResult.dislikes}`;
 });
   
