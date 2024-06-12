@@ -84,8 +84,24 @@ The DOM converts HTML elements into JavaScript objects and vice verca. DOM Event
 
 
 
-  
+## Assignment 3: SQL :rocket:
 
+#### 1) Creating my DataBase - Arrakis Zoo
 
+My SQL code file containing my DataBase and my table design from draw.io are in the folder marked assignmentThree in this repo.
+
+#### Creative Scenario 
+
+># Welcome to Arrakis's World Class Zoo of Intergalactic Animals!
+
+>At Arrakis Zoo, we maintain a detailed database to make sure we provide the best care for all of our animals and visitors. The database tracks various species of animals, the food supplies required for each species, and interactions between our lovely visitors and their favourite animals!
+
+>When a visitor arrives, they register their details, which are stored in the visitors table. As they interact with different animals, these interactions are recorded in the interactions table, linking the visitor to the specific animal and type of interaction, along with the date.
+
+>For each animal species, we maintain detailed records in the animals table, including the habitat and current population. The food supplies required for each species are tracked in the animal_food table, with stock levels monitored to ensure that we never run out of their essential items!
+
+>Using various queries, we can retrieve detailed information about the animals, visitors, and interactions. We use Joins, Aggregate Functions and Inbuilt Functions to help us understand the total & highest populations, average food prices and insights into the relationships between visitors, interactions, and animals.
+
+>To maintain stock levels, we have a stored procedure that alerts us when any food item is low in stock, ensuring that our animals are always well looked after! 
 
 
