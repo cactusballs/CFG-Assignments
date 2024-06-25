@@ -35,15 +35,21 @@ dataBase.connect((error) => {
   errorHandler(error, 'Connection');
 });
 
+//creating a route to the root endpoint
+app.get(`/`, (req, res) => {
+  res.status(200).send('Welcome to The Arrakis Zoo HR system!')
+  });
+
+
 //creating a new table in the database 
 const tableCreate = `CREATE TABLE IF NOT EXISTS animal_handlers(
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  staff_id INT AUTO_INCREMENT PRIMARY KEY,
   employee_name VARCHAR(100) NOT NULL,
   age INT,
   salary_band VARCHAR(1) NOT NULL
 );`;
 
-//checking the above has worked and logging it to the terminal
+//checking the above has worked and logging it to the terminal using the function
 dataBase.query(tableCreate, (error) => {
   errorHandler(error, 'Table Creation');
 });
@@ -71,15 +77,10 @@ app.delete('/animal_handlers', (req, res) => {
   });
 });
 
-//creating a route to the root endpoint
-app.get(`/`, (req, res) => {
-  res.status(200).send('Welcome to Arrakis Zoo!')
-  });
 
-
-//getting the first animal from the animals table 
-app.get('/animals', (req, res) => {
-  const query = 'SELECT * FROM animals LIMIT 1'
+//getting a staff list
+app.get('/staff', (req, res) => {
+  const query = 'SELECT * FROM animal_handlers ORDER BY id ASC'
   dataBase.query(query, (err, results) => {
     res.status(200).send(results); 
   });
