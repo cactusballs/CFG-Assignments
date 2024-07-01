@@ -138,6 +138,8 @@ Using the DELETE method to remove the last member of staff added -
 Using typeof for data validation -
 
 Too many letters)
+
+
 <img width="721" alt="typeOf working" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/429ae3e4-36aa-4d5e-8c76-a9d9db980438">
 
 Incorrect data type)
