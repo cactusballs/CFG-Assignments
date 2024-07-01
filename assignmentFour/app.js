@@ -93,7 +93,7 @@ app.delete('/animal_handlers', (req, res) => {
   if(typeof animalHandler.employee_name !== 'string'){
     return res.status(400).json({message:'Incorrect data type, please try again'})
   }
-  const deleteStaff = 'DELETE FROM animal_handlers WHERE employee_name = ? ';
+  const deleteStaff = 'DELETE FROM animal_handlers WHERE employee_name = ?';
   dataBase.query(deleteStaff,[animalHandler.employee_name], (error, results) => {
     if (error) {
       errorHandler(error, 'Employee Removal')
