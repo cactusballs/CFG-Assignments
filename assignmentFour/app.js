@@ -2,14 +2,13 @@
 const express = require('express');
 const app = express();
 const sql = require('mysql2')
-const port = 3001;
 require('dotenv').config()
-
 //middleware to Parse JSON 
 app.use(express.json());
 
 
-// the app will run on port 3001
+// the app will run on port 3002
+const port = 3002;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 } );
@@ -54,7 +53,7 @@ dataBase.query(tableCreate, (error) => {
   errorHandler(error, 'Table Creation');
 });
  
-//receiving data for new animal_handlers from POST and adding to the animal
+//receiving data for new animal_handlers from POST and adding to the animal_handlers table, using response codes for error handling 
 app.post('/animal_handlers', (req, res) => {
   const animalHandler = {
     // auto increment id
@@ -62,29 +61,53 @@ app.post('/animal_handlers', (req, res) => {
     age: req.body.age,
     salary_band: req.body.salary_band
   } 
+  //validating data entry
+  if(typeof animalHandler.employee_name !== 'string' || typeof animalHandler.age !== 'number' || typeof animalHandler.salary_band !== 'string'){
+    return res.status(400).json({message:'Incorrect data type, please try again'})
+  };
+  if(animalHandler.age < 16 || animalHandler.age > 90000 ){
+    return res.status(400).json({message:'Invalid age, please try again'})
+  }
+  if(animalHandler.salary_band.length > 1 ){
+    return res.status(400).json({message:'Salary bands consist of one letter, please try again'})
+  }
   const addAnimalHandler = 'INSERT INTO animal_handlers (employee_name, age, salary_band) VALUES ( ?, ?, ?)';
-  res.status(201).json({
-    message: 'Employee successfully added'
-  })   
+  dataBase.query(addAnimalHandler, [animalHandler.employee_name, animalHandler.age, animalHandler.salary_band], (error, results) => {
+    if (error) {
+      errorHandler(error, 'Employee Added')
+      return res.status(500).json({ message: 'An error has occurred' });
+    }
+    res.status(201).json({
+      message: 'Employee successfully added'
+    })
+  })
 });
 
 
-//deleting the last inserted data set 
+//deleting the last inserted data set and using response codes for error handling
 app.delete('/animal_handlers', (req, res) => {
   const deleteLast = 'DELETE FROM animal_handlers ORDER BY id DESC LIMIT 1';
-  res.status(200).json({
-    message: 'Last employee successfully deleted'
+  dataBase.query(deleteLast, (error, results) => {
+    if (error) {
+      errorHandler(error, 'Employee Removal')
+      return res.status(500).json({ message: 'An error has occurred' });
+    }
+    res.status(200).json({
+      message: 'Last employee successfully deleted'
+    });
   });
 });
 
 
-//getting a staff list
+//getting a staff list and sending the results
 app.get('/staff', (req, res) => {
-  const query = 'SELECT * FROM animal_handlers ORDER BY id ASC'
-  dataBase.query(query, (err, results) => {
-    res.status(200).send(results); 
+  const staffList = 'SELECT * FROM animal_handlers ORDER BY id ASC'
+  dataBase.query(staffList, (error, results) => {
+    if (error) {
+      errorHandler(error, 'Staff List')
+      return res.status(500).json({ message: 'An error has occurred' });
+    }
+    res.status(200).send(results);
   });
 })
-
-
 
