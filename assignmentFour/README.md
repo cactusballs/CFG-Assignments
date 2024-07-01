@@ -1,4 +1,4 @@
-# Arrakis Zoo HR/Staff management API  
+# Arrakis Zoo Staff Management API  
 
 _This API allows Arrakis Zoo to easily manage their HR system._
 _The Key Features Include_
