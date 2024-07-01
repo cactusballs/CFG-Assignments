@@ -1,9 +1,9 @@
-# Arrakis Zoo HR API how to 
+# Arrakis Zoo HR/Staff management API  
 
 _This API allows Arrakis Zoo to easily manage their HR system._
-_They Key Features Include_
+_The Key Features Include_
  - Adding new employees to their system.
- - Removing employees when needed. 
+ - Removing the most recent employee. 
  - Returning a list of all current employees.
 
 ## Installing the API 
