@@ -130,7 +130,7 @@ Using the POST method to add an Employee to the DataBase -
 
 
 
-Using the DELETE method to remove the last member of staff added - 
+Using the DELETE method to remove a member of staff - 
 
 <img width="746" alt="Delete Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/0bde8eb7-2ea2-4da3-b1ca-1772d89f6d1c">
 
