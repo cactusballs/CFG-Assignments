@@ -48,12 +48,12 @@ const tableCreate = `CREATE TABLE IF NOT EXISTS animal_handlers(
   salary_band VARCHAR(1) NOT NULL
 );`;
 
-//checking the above has worked and logging it to the terminal using the function
+//checking the above has worked and logging it to the terminal using the errorHandling function
 dataBase.query(tableCreate, (error) => {
   errorHandler(error, 'Table Creation');
 });
  
-//receiving data for new animal_handlers from POST and adding to the animal_handlers table, using response codes for error handling 
+//receiving data for new animal_handlers from POST and adding to the animal_handlers table, using functions, response codes and typeof for error handling
 app.post('/animal_handlers', (req, res) => {
   const animalHandler = {
     // auto inc id here
@@ -84,22 +84,29 @@ app.post('/animal_handlers', (req, res) => {
 });
 
 
-//deleting the last inserted data set and using response codes for error handling
+//deleting an employee, using functions, response codes and typeof for error handling
 app.delete('/animal_handlers', (req, res) => {
-  const deleteLast = 'DELETE FROM animal_handlers ORDER BY id DESC LIMIT 1';
-  dataBase.query(deleteLast, (error, results) => {
+  const animalHandler = {
+    employee_name: req.body.employee_name
+  }
+  // validating data entry
+  if(typeof animalHandler.employee_name !== 'string'){
+    return res.status(400).json({message:'Incorrect data type, please try again'})
+  }
+  const deleteStaff = 'DELETE FROM animal_handlers WHERE employee_name = ? ';
+  dataBase.query(deleteStaff,[animalHandler.employee_name], (error, results) => {
     if (error) {
       errorHandler(error, 'Employee Removal')
       return res.status(500).json({ message: 'An error has occurred' });
     }
     res.status(200).json({
-      message: 'Last employee successfully deleted'
+      message: 'Employee successfully deleted'
     });
   });
 });
 
 
-//getting a staff list and sending the results
+//getting a staff list and sending the result, using functions and response codes for error handling
 app.get('/staff', (req, res) => {
   const staffList = 'SELECT * FROM animal_handlers ORDER BY id ASC'
   dataBase.query(staffList, (error, results) => {

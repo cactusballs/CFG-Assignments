@@ -3,7 +3,7 @@
 _This API allows Arrakis Zoo to easily manage their HR system._
 _The Key Features Include_
  - Adding new employees to their system.
- - Removing the most recent employee. 
+ - Removing an employee. 
  - Returning a list of all current employees.
 
 ## Installing the API 
@@ -14,7 +14,7 @@ _The Key Features Include_
   - [express.js](https://expressjs.com)
   - [mysql2](https://www.npmjs.com/package/mysql2) 
   - [express.json](https://www.geeksforgeeks.org/express-js-express-json-function/) - middleware 
-- [nodemon](https://www.npmjs.com/package/nodemon)
+  - [nodemon](https://www.npmjs.com/package/nodemon)
   
 - Create an env file in the root folder and add the variables outlined in env.example
   
@@ -28,7 +28,7 @@ _The Key Features Include_
 | --- | --- | --- |
 | `GET` | `/` | `Returns a Welcome Greeting` |
 | `POST` | `/animal_handlers` | `Adds new staff member` |
-| `DELETE` | `/animal_handlers` | `Removes last staff member` |
+| `DELETE` | `/animal_handlers` | `Removes a staff member by name` |
 | `GET` | `/animal_handlers` | `Returns list of current staff` |
 
 
@@ -36,4 +36,4 @@ _The Key Features Include_
 Lottie Judge 
 
 ## License
-This project is available for use under LJ licensing 
+This project is available for use under LJ licensing.
