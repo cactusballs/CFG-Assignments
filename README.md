@@ -132,7 +132,8 @@ Using the POST method to add an Employee to the DataBase -
 
 Using the DELETE method to remove the last member of staff added - 
 
-<img width="731" alt="Delete Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/a26b13a2-ba39-4f0c-bb33-f143a7c427fc">
+<img width="746" alt="Delete Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/0bde8eb7-2ea2-4da3-b1ca-1772d89f6d1c">
+
 
 
 Using typeof for data validation -
