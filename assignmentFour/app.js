@@ -29,7 +29,7 @@ const dataBase = sql.createConnection({
   database: 'alien_zoo'
 });
 
-//using the error handler function to check it works
+//using the error handler function to check it works 
 dataBase.connect((error) => {
   errorHandler(error, 'Connection');
 });
