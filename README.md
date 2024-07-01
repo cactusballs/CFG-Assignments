@@ -126,15 +126,23 @@ Using the GET method to display a list of current staff -
 
 Using the POST method to add an Employee to the DataBase -
 
-<img width="738" alt="Post Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/49a0b393-9f7f-4f02-8a47-e282aa28791b">
+<img width="738" alt="Post Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/a39535a9-bc78-4f4e-bf65-c5ff634d2503">
+
 
 
 Using the DELETE method to remove the last member of staff added - 
 
-<img width="742" alt="Delete Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/dea55d6a-82bd-49b4-b655-a4bcffa4473b">
+<img width="731" alt="Delete Method" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/a26b13a2-ba39-4f0c-bb33-f143a7c427fc">
 
 
+Using typeof for data validation -
 
+Too many letters)
+<img width="721" alt="typeOf working" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/429ae3e4-36aa-4d5e-8c76-a9d9db980438">
+
+Incorrect data type)
+
+<img width="743" alt="typeOf data type" src="https://github.com/cactusballs/CFG-Assignments/assets/71734928/7d9074df-00f8-4ac7-8389-7cda81082565">
 
 
 
