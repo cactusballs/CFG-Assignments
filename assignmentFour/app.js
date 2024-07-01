@@ -56,7 +56,7 @@ dataBase.query(tableCreate, (error) => {
 //receiving data for new animal_handlers from POST and adding to the animal_handlers table, using response codes for error handling 
 app.post('/animal_handlers', (req, res) => {
   const animalHandler = {
-    // auto increment id
+    // auto inc id here
     employee_name: req.body.employee_name,
     age: req.body.age,
     salary_band: req.body.salary_band
